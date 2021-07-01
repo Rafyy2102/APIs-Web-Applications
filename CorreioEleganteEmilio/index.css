@@ -1,0 +1,63 @@
+body {
+    padding: 50px;
+    background-color: #ab89eba2;
+}
+
+div.letter {
+    position: relative;
+    border: 1px rgba(53, 197, 9, 0.315);
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+    width: 500px;
+    min-height: 200px;
+    background-color: bisque;
+}
+
+div.letter-actions {
+    position: absolute;
+    bottom: 0px;
+    margin: 0px 10px 10px 0px;
+    min-width: calc(100% - 20px);
+}
+
+div.letter-actions button {
+    float: right;
+}
+
+div h1:first-child {
+    position: relative;
+    font-size: 1.2em;
+    font-family: "Times New Roman", Times, serif;
+    background-color: #990009;
+    color: #fff;
+    text-align: center;
+    width: 520px;
+    left: -10px;
+}
+
+div h1:first-child::before {
+    content: '';
+    position: absolute;
+    border-color: transparent #990009 #990009 transparent;
+    left: -0.1px;
+    top: -10px;
+    border-width: 5px;
+    border-style: solid;
+}
+
+p {
+    padding: 10px;
+    font-family: "Times New Roman", Times, serif;
+    text-align: justify;
+    color: #000;
+}
+
+button {
+    border: 1px rgba(247, 32, 32, 0.315);
+    background-color: #97dfebbb;
+    font-family: serif;
+    font-size: 1.2em;
+    text-align: center;
+}
