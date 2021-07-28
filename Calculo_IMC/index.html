@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Cálculo IMC Web Simples</title>
+  <link href="css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+
+  <div class="box">
+
+    <form action="">
+
+      <div class="text">
+        <label>Insira seu peso:</label>
+        <input type="text" id="peso" onkeypress="return SomenteNumero(event);" />
+      </div>
+
+      <div class="text">
+        <label>Insira sua altura:</label>
+        <input type="text" id="altura" onkeypress="return SomenteNumero(event);" />
+      </div>
+
+      <div class="button">
+        <input type="submit" value="Enviar" />
+      </div>      
+
+      <div id="resultado"></div>
+    </form>
+
+  </div>
+
+  <script lang="text/jacascript" src="js/script.js"></script>
+
+</body>
+
+</html>

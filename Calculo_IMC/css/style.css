@@ -1,0 +1,38 @@
+body {
+    padding: 50px;
+    background-color: #746294a2;
+}
+
+div.box{
+    position: relative;
+    border: 1px rgba(1, 5, 0, 0.315);
+    border-top-style: dotted;
+    border-right-style: solid;
+    border-bottom-style: dotted;
+    border-left-style: solid;
+    width: 210px;
+    min-height: 200px;
+    padding: 50px;
+    background-color: rgb(255, 228, 196);
+}
+
+form {
+    border: 1px rgba(1, 2, 0, 0.315);
+}
+
+label{
+ font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+ font-size: 18px;
+}
+
+div.text{
+    padding: 10px;
+}
+
+div.button{
+    border: 1px rgba(124, 0, 0, 0.315);
+    text-align: center; 
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    padding: 10px;   
+}
